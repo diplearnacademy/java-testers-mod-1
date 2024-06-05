@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Pruebas TestNG Java" verbose="1">
+    <test name="Pruebas Navegadores">
+        <packages>
+            <package name="com.ingjuanfg.navegador"/>
+        </packages>
+    </test>
+
+    <!--<test name="Regression">
+        <classes>
+            <class name="com.ingjuanfg.navegador.NavegadorTest"/>
+        </classes>
+    </test>-->
+</suite>
